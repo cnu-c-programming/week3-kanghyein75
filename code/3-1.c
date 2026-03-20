@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-int main() {
-
-    return 0;
-}#include <stdio.h>
-
 int call_count() {
     static int count = 0;
     return ++count;
