@@ -29,7 +29,7 @@ void my_sum(char type, int count, ...) {
             sum += num;
         }
 
-        printf("%d\n", sum);
+        printf("%d", sum);
 
     }
 
