@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 void swap(int *x, int *y) {
-    x = *y;
-    y = *x;
+    int n;    
+    n = *x;   
+    *x = *y;   
+    *y = n;
 }
 
 int main()
