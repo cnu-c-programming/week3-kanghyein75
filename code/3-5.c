@@ -9,6 +9,7 @@ void my_sum(char type, int count, ...) {
         for (int i = 0; i < count; i++) {
             char *str = va_arg(ap, char*);
             printf("%s ", str);
+        
         }
         
         printf("\n");
